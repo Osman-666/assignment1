@@ -2,23 +2,27 @@
     margin: 0;
     padding: 0;
 }
-p,h1,h2,h3,h4,a{
+body{
     font-family: 'Roboto', sans-serif;
 }
-
-/* start navigation section */
-
-nav{
-    width: 100%;
-    min-height: 85px;
+h1{
+    font-size: 35px;
+    font-weight: 700;
 }
+p,h3{
+    font-size: 20px;
+    color: #B5B5B5;
+    text-align: justify;
+}
+
+/* start nav section css */
+
 nav ul{
     list-style-type: none;
     float: right;
     margin-right: 40px;
 }
 nav ul li{
-    float: left;
     display: inline-block;
 }
 
@@ -30,40 +34,37 @@ nav ul li a{
     padding: 35px 15px;
     font-weight: 700;
 }
+/* end nav section css */
 
-/* start mid section */
-.mid-section{
-    height: 500px;
+/* start mid section css */
+#color_text{
+    color: #FB7462;
 }
-
-#color-text{
-    color:#FF8367 ;
-}
-.halp-width{
+.half_width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.halp-width h1{
-    color: #676b9c;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 58px;
-}
-
-#m-right{
-    margin-top: 60px;
-}
-.halp-width img{
+section img{
     max-width: 100%;
-    margin-left: -50px;
+}
+#left_side{
+    margin-top: 170px;
+}
+#right_side{
+    margin-top: 120px;
 }
 .btn{
- text-decoration: none;
- background-color: #F76760;
- color: #ffffff;
- padding: 10px 20px;
- border-radius: 10px;
- line-height: 3;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #454545;
+    line-height: 60px;
+    font-size: 20px;
 }
+
+/* end mid section css */
+/* start work section */
+
