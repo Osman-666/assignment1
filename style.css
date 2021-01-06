@@ -41,7 +41,7 @@ nav ul li a{
     display: inline-block;
     margin-bottom: 50px;
 }
-#color_text{
+.color_text{
     color: #FB7462;
 }
 .half_width{
@@ -71,34 +71,131 @@ section img{
 
 /* end mid section css */
 /* start work section */
+
 .project_area{
-    height: 500px;
-    color: #454545;
+    height: 600px;
+    background-color: #F8F9FC;
 }
-.one_third img{
+.project{
+    margin-top: 30px;
+}
+.project img{
     max-width: 300px;
 }
 .one_third{
     width: 25%;
     float: left;
     margin-left: 3%;
-    background-color: #FFFFFF;
     line-height: 30px;
     padding-left: 3%;
+    background-color: #FFFFFF;
+    margin-top: 60px;
 }
-.one_third p{
-    text-align: justify;
-}
+
 .one_third h1{
     font-size: 21px;
-    margin: 10px 20px;
+    margin: 10px 10px;
     letter-spacing: -1px;
     word-spacing: 1px;
 }
+
 .box_area{
-    background: #F8F9FC;
+    box-shadow: 5px 7px 15px gray;
+    height: 70%;
+    border-radius: 10px;
+    background-color:#ffffff;
+    
 }
-.box_area h1{
-    color: #FB7462;
+.box_area img{
     margin-top: 10px;
 }
+.project h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#clr_txt{
+    color:#FB7462 ;
+}
+/* end work section */
+
+/* start skill section */
+.skill_area{
+    height: 400px;
+}
+.container{
+    width: 100%;
+    background-color: #dddddd;
+}
+.skill{
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.html{
+    width: 80%;
+    background-color: rgb(105, 6, 175);
+}
+.css{
+    width: 65%;
+    background-color: rgb(19, 149, 224);
+}
+.javascript{
+    width: 30%;
+    background-color: rgb(27, 240, 116);
+}
+.photoshop{
+    width: 70%;
+    background-color: rgb(245, 206, 31);
+}
+.c{
+    width: 75%;
+    background-color: rgba(201, 10, 89, 0.5);
+}
+.skill_area h1{
+    text-align: center;
+    color:#FB7462 ;
+    margin-top: 30px;
+}
+.skill_area p{
+    color: #3C3C3C;
+}
+
+/* end skill section */
+
+/* start search section */
+.search_section{
+    height: 300px;
+    background-color: #F8F9FC;
+    background-image: url("./img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+
+}
+.part{
+    float: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding-right: 10%;
+}
+.part h1{
+    color:#ffffff;
+}
+/* end search section */
+
+/* start footer section */
+.footer_area{
+    height: 250px;
+}
+.footer{
+    text-align: center;
+    margin-top: 60px;
+}
+.footer img{
+    max-width: 50px;
+}
+
+
+
