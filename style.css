@@ -37,6 +37,10 @@ nav ul li a{
 /* end nav section css */
 
 /* start mid section css */
+.another_section{
+    display: inline-block;
+    margin-bottom: 50px;
+}
 #color_text{
     color: #FB7462;
 }
@@ -67,4 +71,34 @@ section img{
 
 /* end mid section css */
 /* start work section */
-
+.project_area{
+    height: 500px;
+    color: #454545;
+}
+.one_third img{
+    max-width: 300px;
+}
+.one_third{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    background-color: #FFFFFF;
+    line-height: 30px;
+    padding-left: 3%;
+}
+.one_third p{
+    text-align: justify;
+}
+.one_third h1{
+    font-size: 21px;
+    margin: 10px 20px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+}
+.box_area{
+    background: #F8F9FC;
+}
+.box_area h1{
+    color: #FB7462;
+    margin-top: 10px;
+}
