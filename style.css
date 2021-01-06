@@ -30,3 +30,40 @@ nav ul li a{
     padding: 35px 15px;
     font-weight: 700;
 }
+
+/* start mid section */
+.mid-section{
+    height: 500px;
+}
+
+#color-text{
+    color:#FF8367 ;
+}
+.halp-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halp-width h1{
+    color: #676b9c;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+#m-right{
+    margin-top: 60px;
+}
+.halp-width img{
+    max-width: 100%;
+    margin-left: -50px;
+}
+.btn{
+ text-decoration: none;
+ background-color: #F76760;
+ color: #ffffff;
+ padding: 10px 20px;
+ border-radius: 10px;
+ line-height: 3;
+}
